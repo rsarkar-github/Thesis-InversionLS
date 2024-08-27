@@ -9,4 +9,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Seiscope.p02_add_sources
+python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q07_display_obj_total
