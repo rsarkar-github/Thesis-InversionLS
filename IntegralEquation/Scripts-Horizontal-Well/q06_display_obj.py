@@ -8,7 +8,7 @@ from ..Inversion.ScatteringIntegralGeneralVzInversion import ScatteringIntegralG
 if __name__ == "__main__":
 
 
-    basedir = "InversionLS/Expt/horizontal-well/"
+    basedir = "Thesis-InversionLS/Expt/horizontal-well/"
     obj = ScatteringIntegralGeneralVzInversion2d(
         basedir=basedir,
         restart=True,

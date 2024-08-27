@@ -18,17 +18,17 @@ if __name__ == "__main__":
     freq_mode = int(sys.argv[2])
 
     if model_mode == 0:
-        filepath1 = "InversionLS/Data/sigsbee-new-2d.npz"
-        filepath2 = "InversionLS/Data/p02-sigsbee-source.npz"
-        filepath3_ = "InversionLS/Data/p03-sigsbee-"
+        filepath1 = "Thesis-InversionLS/Data/sigsbee-new-2d.npz"
+        filepath2 = "Thesis-InversionLS/Data/p02-sigsbee-source.npz"
+        filepath3_ = "Thesis-InversionLS/Data/p03-sigsbee-"
     elif model_mode == 1:
-        filepath1 = "InversionLS/Data/marmousi-new-2d.npz"
-        filepath2 = "InversionLS/Data/p02-marmousi-source.npz"
-        filepath3_ = "InversionLS/Data/p03-marmousi-"
+        filepath1 = "Thesis-InversionLS/Data/marmousi-new-2d.npz"
+        filepath2 = "Thesis-InversionLS/Data/p02-marmousi-source.npz"
+        filepath3_ = "Thesis-InversionLS/Data/p03-marmousi-"
     elif model_mode == 2:
-        filepath1 = "InversionLS/Data/seiscope-new-2d.npz"
-        filepath2 = "InversionLS/Data/p02-seiscope-source.npz"
-        filepath3_ = "InversionLS/Data/p03-seiscope-"
+        filepath1 = "Thesis-InversionLS/Data/seiscope-new-2d.npz"
+        filepath2 = "Thesis-InversionLS/Data/p02-seiscope-source.npz"
+        filepath3_ = "Thesis-InversionLS/Data/p03-seiscope-"
     else:
         raise ValueError("model mode = ", model_mode, " is not supported. Must be 0, 1, or 2.")
 

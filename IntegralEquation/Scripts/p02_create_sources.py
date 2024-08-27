@@ -14,11 +14,11 @@ if __name__ == "__main__":
     model_mode = int(sys.argv[1])
 
     if model_mode == 0:
-        filepath = "InversionLS/Data/sigsbee-new-vz-2d.npz"
+        filepath = "Thesis-InversionLS/Data/sigsbee-new-vz-2d.npz"
     elif model_mode == 1:
-        filepath = "InversionLS/Data/marmousi-new-vz-2d.npz"
+        filepath = "Thesis-InversionLS/Data/marmousi-new-vz-2d.npz"
     elif model_mode == 2:
-        filepath = "InversionLS/Data/seiscope-new-vz-2d.npz"
+        filepath = "Thesis-InversionLS/Data/seiscope-new-vz-2d.npz"
     else:
         print("model mode = ", model_mode, " is not supported. Must be 0, 1, or 2.")
 
@@ -92,18 +92,18 @@ if __name__ == "__main__":
 
     if model_mode == 0:
         sou = create_arc_source()
-        np.savez("InversionLS/Data/p02-sigsbee-source.npz", sou)
-        savefig_fname = "InversionLS/Fig/p02-sigsbee-source.pdf"
+        np.savez("Thesis-InversionLS/Data/p02-sigsbee-source.npz", sou)
+        savefig_fname = "Thesis-InversionLS/Fig/p02-sigsbee-source.pdf"
 
     if model_mode == 1:
         sou = create_gaussian_point_source()
-        np.savez("InversionLS/Data/p02-marmousi-source.npz", sou)
-        savefig_fname = "InversionLS/Fig/p02-marmousi-source.pdf"
+        np.savez("Thesis-InversionLS/Data/p02-marmousi-source.npz", sou)
+        savefig_fname = "Thesis-InversionLS/Fig/p02-marmousi-source.pdf"
 
     if model_mode == 2:
         sou = create_line_source()
-        np.savez("InversionLS/Data/p02-seiscope-source.npz", sou)
-        savefig_fname = "InversionLS/Fig/p02-seiscope-source.pdf"
+        np.savez("Thesis-InversionLS/Data/p02-seiscope-source.npz", sou)
+        savefig_fname = "Thesis-InversionLS/Fig/p02-seiscope-source.pdf"
 
 
     # ----------------------------------------------

@@ -11,12 +11,12 @@ from ..Inversion.ScatteringIntegralGeneralVzInversion import ScatteringIntegralG
 
 if __name__ == "__main__":
 
-    basedir = "InversionLS/Expt/horizontal-well/"
+    basedir = "Thesis-InversionLS/Expt/horizontal-well/"
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
     # Load horizontal well model
-    vz = np.load("InversionLS/Data/vp-log-horizontal-well.npy") / 1000.0
+    vz = np.load("Thesis-InversionLS/Data/vp-log-horizontal-well.npy") / 1000.0
     nz = vz.shape[0]
     nx = 2000
 
@@ -141,5 +141,5 @@ if __name__ == "__main__":
         vmax=6.0
     )
 
-    np.savez("InversionLS/Data/horizontal-well-new-2d.npz", vp_true)
-    np.savez("InversionLS/Data/horizontal-well-new-vz-2d.npz", vz_interp)
+    np.savez("Thesis-InversionLS/Data/horizontal-well-new-2d.npz", vp_true)
+    np.savez("Thesis-InversionLS/Data/horizontal-well-new-vz-2d.npz", vz_interp)

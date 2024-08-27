@@ -7,18 +7,18 @@ from ..Inversion.ScatteringIntegralGeneralVzInversion import ScatteringIntegralG
 
 if __name__ == "__main__":
 
-    basedir = "InversionLS/Expt/horizontal-well/"
+    basedir = "Thesis-InversionLS/Expt/horizontal-well/"
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
     # Load horizontal-well files
-    with np.load("InversionLS/Data/horizontal-well-new-vz-2d.npz") as data:
+    with np.load("Thesis-InversionLS/Data/horizontal-well-new-vz-2d.npz") as data:
         vp_vz_2d = data["arr_0"]
-    with np.load("InversionLS/Data/horizontal-well-new-2d.npz") as data:
+    with np.load("Thesis-InversionLS/Data/horizontal-well-new-2d.npz") as data:
         vp_2d = data["arr_0"]
 
-    shutil.copy("InversionLS/Data/horizontal-well-new-vz-2d.npz", os.path.join(basedir, "vp_vz_2d.npz"))
-    shutil.copy("InversionLS/Data/horizontal-well-new-2d.npz", os.path.join(basedir, "vp_true_2d.npz"))
+    shutil.copy("Thesis-InversionLS/Data/horizontal-well-new-vz-2d.npz", os.path.join(basedir, "vp_vz_2d.npz"))
+    shutil.copy("Thesis-InversionLS/Data/horizontal-well-new-2d.npz", os.path.join(basedir, "vp_true_2d.npz"))
 
     dx = 2.0
     dz = 2.0

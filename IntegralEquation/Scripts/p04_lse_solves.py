@@ -21,28 +21,28 @@ if __name__ == "__main__":
     mu_mode = int(sys.argv[4])
 
     if model_mode == 0:
-        filepath = "InversionLS/Data/sigsbee-new-vz-2d.npz"
-        filepath1 = "InversionLS/Data/sigsbee-new-2d.npz"
-        filepath2 = "InversionLS/Data/p02-sigsbee-source.npz"
-        filepath3_ = "InversionLS/Data/p03-sigsbee-"
-        filepath4_ = "InversionLS/Data/p04-sigsbee-"
-        filepath5_ = "InversionLS/Fig/p04-sigsbee-"
+        filepath = "Thesis-InversionLS/Data/sigsbee-new-vz-2d.npz"
+        filepath1 = "Thesis-InversionLS/Data/sigsbee-new-2d.npz"
+        filepath2 = "Thesis-InversionLS/Data/p02-sigsbee-source.npz"
+        filepath3_ = "Thesis-InversionLS/Data/p03-sigsbee-"
+        filepath4_ = "Thesis-InversionLS/Data/p04-sigsbee-"
+        filepath5_ = "Thesis-InversionLS/Fig/p04-sigsbee-"
 
     elif model_mode == 1:
-        filepath = "InversionLS/Data/marmousi-new-vz-2d.npz"
-        filepath1 = "InversionLS/Data/marmousi-new-2d.npz"
-        filepath2 = "InversionLS/Data/p02-marmousi-source.npz"
-        filepath3_ = "InversionLS/Data/p03-marmousi-"
-        filepath4_ = "InversionLS/Data/p04-marmousi-"
-        filepath5_ = "InversionLS/Fig/p04-marmousi-"
+        filepath = "Thesis-InversionLS/Data/marmousi-new-vz-2d.npz"
+        filepath1 = "Thesis-InversionLS/Data/marmousi-new-2d.npz"
+        filepath2 = "Thesis-InversionLS/Data/p02-marmousi-source.npz"
+        filepath3_ = "Thesis-InversionLS/Data/p03-marmousi-"
+        filepath4_ = "Thesis-InversionLS/Data/p04-marmousi-"
+        filepath5_ = "Thesis-InversionLS/Fig/p04-marmousi-"
 
     elif model_mode == 2:
-        filepath = "InversionLS/Data/seiscope-new-vz-2d.npz"
-        filepath1 = "InversionLS/Data/seiscope-new-2d.npz"
-        filepath2 = "InversionLS/Data/p02-seiscope-source.npz"
-        filepath3_ = "InversionLS/Data/p03-seiscope-"
-        filepath4_ = "InversionLS/Data/p04-seiscope-"
-        filepath5_ = "InversionLS/Fig/p04-seiscope-"
+        filepath = "Thesis-InversionLS/Data/seiscope-new-vz-2d.npz"
+        filepath1 = "Thesis-InversionLS/Data/seiscope-new-2d.npz"
+        filepath2 = "Thesis-InversionLS/Data/p02-seiscope-source.npz"
+        filepath3_ = "Thesis-InversionLS/Data/p03-seiscope-"
+        filepath4_ = "Thesis-InversionLS/Data/p04-seiscope-"
+        filepath5_ = "Thesis-InversionLS/Fig/p04-seiscope-"
 
     else:
         raise ValueError("model mode = ", model_mode, " is not supported. Must be 0, 1, or 2.")
@@ -104,7 +104,7 @@ if __name__ == "__main__":
     m_ = 4
     sigma_ = 0.0015
     precision_ = np.complex64
-    green_func_dir_ = "InversionLS/Data/p01-green-func-" + str(model_mode) + "-" + str(freq_mode)
+    green_func_dir_ = "Thesis-InversionLS/Data/p01-green-func-" + str(model_mode) + "-" + str(freq_mode)
     num_threads_ = 4
     vz_ = np.zeros(shape=(nz_, 1), dtype=np.float32) + vel_trace
 

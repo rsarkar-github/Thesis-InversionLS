@@ -23,7 +23,7 @@ def plot(psi, extent, title, aspect_ratio=10, file_name=None):
 
 if __name__ == "__main__":
 
-    basedir = "InversionLS/Expt/horizontal-well/"
+    basedir = "Thesis-InversionLS/Expt/horizontal-well/"
     obj = ScatteringIntegralGeneralVzInversion2d(
         basedir=basedir,
         restart=True,
