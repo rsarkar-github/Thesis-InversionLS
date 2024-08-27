@@ -10,4 +10,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.p05_compute_true_data
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.p05_compute_true_data

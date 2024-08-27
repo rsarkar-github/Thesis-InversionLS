@@ -9,4 +9,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.p01_create_params_jsonfile
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.p01_create_params_jsonfile

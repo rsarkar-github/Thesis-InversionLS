@@ -9,4 +9,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q02_display_results_tikhreg_bounds
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.q02_display_results_tikhreg_bounds

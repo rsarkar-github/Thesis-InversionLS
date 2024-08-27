@@ -9,7 +9,7 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 5 50
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 12 50
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 19 50
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 26 50
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 5 50
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 12 50
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 19 50
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.q03_display_true_wavefield 26 50

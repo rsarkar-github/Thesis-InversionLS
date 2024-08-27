@@ -10,4 +10,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.p02_add_sources
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.p02_add_sources

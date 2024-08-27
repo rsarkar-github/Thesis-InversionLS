@@ -21,7 +21,7 @@ bash p01.sh
 
 - Navigate to the directory Thesis-InversionLS/IntegralEquation/Scripts-Horizontal-Well/BashScripts/
 
-- Run all the scripts serially (note that you need 10Gb or memory, and at least 20 cores to run the next steps)
+- Run all the scripts serially (note that you need 20Gb or memory, and at least 20 cores to run the next steps)
 
 - The above runs will create some figures in the directory **Thesis-InversionLS/Expt/horizontal-well/Fig/**.
 

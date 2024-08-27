@@ -10,4 +10,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.p03_calculate_green_func
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.p03_calculate_green_func

@@ -9,4 +9,4 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts-Horizontal-Well.q01_display_vel_pert
+python -m Thesis-InversionLS.IntegralEquation.Scripts-Horizontal-Well.q01_display_vel_pert

@@ -9,9 +9,9 @@ conda activate py39
 cd $SCRIPT_DIR
 cd ../../../..
 
-python -m InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 1 0
-python -m InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 1 1
-python -m InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 1 2
-python -m InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 2 0
-python -m InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 2 1
-python -m InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 2 2
+python -m Thesis-InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 1 0
+python -m Thesis-InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 1 1
+python -m Thesis-InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 1 2
+python -m Thesis-InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 2 0
+python -m Thesis-InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 2 1
+python -m Thesis-InversionLS.IntegralEquation.Scripts.p06_plot_images 2 3 2 2
